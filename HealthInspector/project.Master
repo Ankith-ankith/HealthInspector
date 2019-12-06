@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="project.Master.cs" Inherits="HealthInspector.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Health Inspector</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+            color:darkblue;
+        }
+        .auto2
+        {
+            font-size:large;
+            text-align:end;
+        }
+        .auto-footer1 {
+           width:100%;
+           height:30%;
+            padding-top:30px;
+            background-color:red;
+        }
+        .auto-footer2 {
+            width: 100%;
+        }
+        .auto-footer3 {
+            width: 25%;
+            height: 49px;
+        }
+        .auto-footer4 {
+            width: 8%;
+            height: 49px;
+        }
+        .auto-footer4 {
+            width: 25%;
+        }
+        .auto-footer5 {
+            width: 8%;
+        }
+        .auto-footer6 {
+            width: 100%;
+            height: 50px;
+        }
+        .auto-footer7 {
+            height: 20px;
+        }
+        .auto-footer8 {
+            width: 25%;
+            height: 20px;
+        }
+        .auto-footer9 {
+            width: 8%;
+            height: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div >
+            <div class="container" style="width:100%" >
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                       <nav class="navbar navbar-default" style="                               background-color: #66CCFF">
+                           <asp:Image ID="Image1" runat="server" Height="98px" ImageUrl="images/healthlogo.jpg" Width="223px" />
+                           <span class="auto-style1"><em><strong>HEALTH INSPECTOR </strong></em></span>&nbsp;<ul class="nav navbar-nav navbar-right" style="padding-right:10%; text-align:end;">
+                           <li><a href="homepage.aspx" style="padding-right: 20px; color: #333333" class="auto2"><strong>Home</strong></a></li>
+                           <li><a href="#" style="padding-right:20px; color: #333333;" class="auto2"><strong>About</strong></a></li>
+                           <li><a href="search.aspx" style="padding-right: 20px; color: #333333;" class="auto2"><strong>Appointments</strong></a></li>
+                                <li><a href="#" style="padding-right:20px; color: #333333;" class="auto2"><strong>Profile</strong></a></li>
+                                <li><a href="#" style="padding-right:20px; color: #333333;" class="auto2"><strong>Logout</strong></a></li>
+                           </ul>
+                       </nav>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+           <footer>
+        <div class="container" style="width:100%;">
+            <div class="row" >
+                <div class="auto-footer1">
+                    
+                <table style="padding-top:10%;" class="auto-style6" >
+                    <tr>
+                        <td class="auto-footer7"></td>
+                        <td class="auto-footer8">ABOUT US</td>
+                        <td class="auto-footer9"></td>
+                        <td class="auto-footer8">FOLLOW US</td>
+                        <td class="auto-footer9"></td>
+                        <td class="auto-footer8">
+                            <asp:HyperLink ID="HyperLink3" runat="server">Terms and Conditions</asp:HyperLink>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td class="auto-footer4">Contact us : 108 (Toll Free)</td>
+                        <td class="auto-footer">&nbsp;</td>
+                        <td class="auto-footer4">
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://www.facebook.com">Facebook</asp:HyperLink>
+                        </td>
+                        <td class="auto-footer5">&nbsp;</td>
+                        <td class="auto-footer4">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td class="auto-footer4">Address : HEALTHCARE, St. Marks Road, <br />
+                            Bengaluru - 560019</td>
+                        <td class="auto-footer5">&nbsp;</td>
+                        <td class="auto-footer4">
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="https://www.Instagram.com">Instagram</asp:HyperLink>
+                        </td>
+                        <td class="auto-footer5">&nbsp;</td>
+                        <td class="auto-footer4">&nbsp;</td>
+                    </tr>
+                </table>
+                hjg
+              </div>
+            </div>   
+        </div>
+</footer>
+    </form>
+  
+</body>
+  
+ 
+
+</html>
