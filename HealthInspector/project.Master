@@ -70,7 +70,7 @@
                     <div class="col-md-12 col-sm-12">
                        <nav class="navbar navbar-default" style="                               background-color: #66CCFF">
                            <asp:Image ID="Image1" runat="server" Height="98px" ImageUrl="images/healthlogo.jpg" Width="223px" />
-                           <span class="auto-style1"><em><strong>HEALTH INSPECTOR ********** </strong></em></span>&nbsp;<ul class="nav navbar-nav navbar-right" style="padding-right:10%; text-align:end;">
+                           <span class="auto-style1"><em><strong>********HEALTH INSPECTOR ********** </strong></em></span>&nbsp;<ul class="nav navbar-nav navbar-right" style="padding-right:10%; text-align:end;">
                            <li><a href="homepage.aspx" style="padding-right: 20px; color: #333333" class="auto2"><strong>Home</strong></a></li>
                            <li><a href="#" style="padding-right:20px; color: #333333;" class="auto2"><strong>About</strong></a></li>
                            <li><a href="search.aspx" style="padding-right: 20px; color: #333333;" class="auto2"><strong>Appointments</strong></a></li>
